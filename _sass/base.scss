@@ -1,12 +1,27 @@
 :root {
   font-size: 18px;
 }
-
+// COLOR VARIABLES
+$white: #FFF;
+$dark-green: #003010;
+$medium-green: #004624;
+$light-green: #CBE4BB;
 // TYPOGRAPHY VARIABLES & RULES
 $primary-font: PT Serif, serif;
 $secondary-font: Josefin Sans, sans-serif;
 $line-height-headings: 1.2;
 $line-height-body: 1.5;
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/harrow_woodcraft_background.jpg);
+  background-size: cover;
+}
+
+main {
+  max-width: 960px;
+}
 
 h1 {
   font-family: $secondary-font;
@@ -26,6 +41,7 @@ h3 {
   font-family: $primary-font;
   font-size: 64px;
   font-style: italic;
+  font-weight: 400;
   line-height: $line-height-headings;
 }
 
@@ -44,13 +60,17 @@ h5 {
 }
 
 p {
-  font-family: $secondary-font;
+  font-family: $primary-font;
   font-size: 18px;
   line-height: $line-height-body;
 }
 
-// COLOR VARIABLES
-$white: #FFF;
-$dark-green: #003010;
-$medium-green: #004624;
-$light-green: #CBE4BB;
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

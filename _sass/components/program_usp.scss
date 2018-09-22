@@ -1,0 +1,57 @@
+.program_usp_container {
+  width: 100%;
+  background-color: $medium-green;
+  display: flex;
+}
+
+.program_usp__item {
+  flex-grow: 0;
+  width: 33.3%;
+}
+
+.program_usp__item:nth-child(2) {
+  background-color: $dark-green;
+}
+
+.program_usp_mood {
+  width: 100%;
+  height: 320px;
+  display: flex;
+}
+
+.program_usp__item_img {
+  height: 320px;
+}
+
+.program_usp__item_img--small {
+  width: 320px;
+  height: 320px;
+  background-image: url(../img/harrow_woodcraft_5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.program_usp__item_img--extended {
+  height: 320px;
+  flex-grow: 1;
+  background-image: url(../img/harrow_woodcraft_6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.program_usp__description {
+  color: $white;
+  padding-top: 10px;
+  padding-left: $page-padding-left;
+  padding-right: 24px;
+  padding-bottom: 24px;
+
+  p {
+    font-size: 16px;
+  }
+}
+
+.program_usp__item__heading {
+  margin-bottom: 10px;
+  font-size: 24px;
+}

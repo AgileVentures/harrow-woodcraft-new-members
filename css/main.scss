@@ -1,11 +1,14 @@
 ---
 # main.scss for importing the SCSS partials
 ---
-
 // Imports - basic
 @import "reset";
 @import "base";
-@import "utilities";
-
-// Imports - components
-@import "components/header"
+@import "utilities"; // Imports - components
+@import "components/header";
+@import "components/slider";
+@import "components/introduction";
+@import "components/schedules";
+@import "components/program_usp";
+@import "components/contact";
+@import "components/footer";

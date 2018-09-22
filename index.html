@@ -4,23 +4,34 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <!-- META TAGS -->
-    <title>{{ site.title }}</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="{{site.description}}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600,700|PT+Serif:400,400i" rel="stylesheet">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="icon" href="/img/woodcraft_favicon.png" type="image/x-icon" />
+<head>
+  <!-- META TAGS -->
+  <title>{{ site.title }}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{site.description}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- JS -->
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600,700|PT+Serif:400,400i" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="icon" href="/img/woodcraft_favicon.png" type="image/x-icon" />
 
-  </head>
-  <body>
-      {% include header.html %}
-  </body>
+  <!-- JS -->
+
+</head>
+
+<body>
+  <main>
+    {% include header.html %}
+    {% include slider.html %}
+    {% include introduction.html %}
+    {% include schedules.html %}
+    {% include program_usp.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+  </main>
+</body>
+
 </html>
