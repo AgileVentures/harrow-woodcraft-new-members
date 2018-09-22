@@ -18,7 +18,7 @@ email: info@harrow-woodcraft-new-members.org.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Harrow Woodcraft is all about fun and learning for kids.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" #"https://harrow-woodcraft-new-members.org.uk"
+url: "https://harrow-woodcraft-new-members.org.uk"
 twitter_username: WoodcraftFolk
 
 # Build settings
