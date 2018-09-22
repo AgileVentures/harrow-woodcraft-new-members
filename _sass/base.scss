@@ -1,0 +1,56 @@
+:root {
+  font-size: 18px;
+}
+
+// TYPOGRAPHY VARIABLES & RULES
+$primary-font: PT Serif, serif;
+$secondary-font: Josefin Sans, sans-serif;
+$line-height-headings: 1.2;
+$line-height-body: 1.5;
+
+h1 {
+  font-family: $secondary-font;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: $line-height-headings;
+}
+
+h2 {
+  font-family: $primary-font;
+  font-size: 200px;
+  font-weight: 400;
+  line-height: $line-height-headings;
+}
+
+h3 {
+  font-family: $primary-font;
+  font-size: 64px;
+  font-style: italic;
+  line-height: $line-height-headings;
+}
+
+h4 {
+  font-family: $primary-font;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: $line-height-headings;
+}
+
+h5 {
+  font-family: $primary-font;
+  font-size: 28px;
+  font-style: italic;
+  line-height: $line-height-headings;
+}
+
+p {
+  font-family: $secondary-font;
+  font-size: 18px;
+  line-height: $line-height-body;
+}
+
+// COLOR VARIABLES
+$white: #FFF;
+$dark-green: #003010;
+$medium-green: #004624;
+$light-green: #CBE4BB;

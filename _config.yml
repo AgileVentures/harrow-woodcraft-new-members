@@ -17,16 +17,19 @@ title: Harrow Woodcraft New Members
 email: info@harrow-woodcraft-new-members.org.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Harrow Woodcraft is all about fun and learning for kids.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://harrow-woodcraft-new-members.org.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" #"https://harrow-woodcraft-new-members.org.uk"
 twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
+
 plugins:
   - jekyll-feed
+
+sass:
+  sass_dir:         _sass
+  style:            :compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
