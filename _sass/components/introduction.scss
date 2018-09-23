@@ -1,7 +1,35 @@
 .introduction {
   width: 100%;
-  height: 190px;
   background-color: $medium-green;
   color: $white;
   padding: 20px $page-padding-right 20px $page-padding-left;
+}
+
+@media only screen and (max-width: 800px) {
+  .introduction {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .introduction__heading {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .introduction {
+    padding: 18px;
+  }
+
+  .introduction__heading {
+    font-size: 18px;
+    line-height: 1.45;
+  }
+
+  .introduction__description {
+    font-size: $paragraph-mobile;
+  }
 }
