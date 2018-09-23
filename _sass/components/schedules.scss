@@ -31,3 +31,33 @@
     color: $light-green;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .schedules, .schedules_item {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .schedules__heading, .schedules_item {
+    font-size: 28px;
+    line-height: 1.15;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .schedules, .schedules_item {
+    padding: 18px;
+  }
+
+  .schedules__heading, .schedules_item {
+    font-size: 18px;
+    line-height: 1.45;
+  }
+
+  .schedules__description {
+    font-size: $paragraph-mobile;
+  }
+}
