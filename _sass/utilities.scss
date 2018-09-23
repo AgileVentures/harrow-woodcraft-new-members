@@ -1,0 +1,31 @@
+// UTILITIES happening multiple times
+// SPACING
+$page-padding-left: 32px;
+$page-padding-right: 32px;
+
+$margin-bottom-big: 24px;
+$margin-top-big: 24px;
+
+
+.margin-bottom-big {
+  margin-bottom: 24px;
+}
+
+.margin-bottom-xl {
+  margin-bottom: 32px;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 16px;
+}
+
+.margin-bottom-small {
+  margin-bottom: 8px;
+}
+// TYPOGRAPHY
+
+$paragraph-mobile: 14px;
+
+.italic {
+  font-style: italic;
+}
