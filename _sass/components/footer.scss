@@ -6,3 +6,9 @@
   background-size: cover;
   background-position: bottom center;
 }
+
+@media only screen and (max-width: 800px) {
+  .footer_image {
+    max-height: 100vw;
+  }
+}
