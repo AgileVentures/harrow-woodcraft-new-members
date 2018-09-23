@@ -1,12 +1,40 @@
 .slider {
   width: 100%;
   height: 692px;
-  background-image: url(../img/harrow_woodcraft_1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
   color: $white;
+  overflow: hidden;
+}
+
+.slider__holder {
+  position: relative;
+  left: 0;
+  width: 10000vw;
+  height: 100%;
+  transition: left 1s;
+}
+
+.slider_element {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  height: 100%;
   padding: 0 32px 0 32px;
+}
+
+.slider_element--1 {
+    background-image: url(../img/harrow_woodcraft_1.jpg);
+}
+
+.slider_element--2 {
+    background-image: url(../img/harrow_woodcraft_8.jpg);
+}
+
+.slider_element--3 {
+    background-image: url(../img/harrow_woodcraft_9.jpg);
 }
 
 .slider__heading, .slider__heading__subheadline {
@@ -15,8 +43,13 @@
 
 @media only screen and (max-width: 800px) {
   .slider {
-    padding-top: 60px;
+    width: 100vw;
     height: 600px;
+  }
+
+  .slider_element {
+    max-width: 100vw;
+    padding-top: 60px;
   }
 
 
@@ -31,8 +64,12 @@
 
 @media only screen and (max-width: 650px) {
   .slider {
-    padding-top: 40px;
     height: 480px;
+  }
+
+  .slider_element {
+    padding-top: 40px;
+    max-width: 100vw;
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -50,6 +87,9 @@
 @media only screen and (max-width: 400px) {
   .slider {
     height: 100vw;
+  }
+
+  .slider_element {    
     padding-left: 18px;
     padding-right: 18px;
   }

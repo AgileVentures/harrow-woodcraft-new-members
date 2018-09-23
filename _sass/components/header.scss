@@ -41,6 +41,7 @@ header {
 @media only screen and (max-width: 800px) {
     header {
       padding: 0 24px 0 24px;
+      height: 100px;
     }
 
     .header__logo {
@@ -50,12 +51,12 @@ header {
 
     .header__headline {
       font-size: 28px;
+      margin-top: 6px; // Small CSS cosmetix
     }
 }
 
 @media only screen and (max-width: 650px) {
     header {
-        height: 100px;
         flex-direction: column;
         justify-content: center;
     }
@@ -82,10 +83,23 @@ header {
 
 @media only screen and (max-width: 400px) {
   header {
+    background-color: $white;
     padding: 0 18px 0 18px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
 
   .header__logo {
     margin-right: 18px;
+  }
+
+  .header__headline {
+    font-size: 14px;
+    margin-top: 2px; // Small CSS cosmetix
+  }
+
+  .header__button {
+    border-bottom: 1px solid $light-green;
   }
 }
