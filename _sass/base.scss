@@ -20,7 +20,7 @@ body {
 }
 
 main {
-  max-width: 960px;
+  width: 960px;
 }
 
 h1 {
@@ -73,4 +73,21 @@ a {
 a:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 960px) {
+    main {
+      width: 100vw;
+    }
+
+    body {
+      background-image: none;
+        background-color: $white;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: 100px;
+  }
 }

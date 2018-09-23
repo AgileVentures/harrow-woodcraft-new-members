@@ -25,7 +25,7 @@ header {
 
 .header__button {
   font-family: $primary-font;
-  font-size: 28px;
+  font-size: 18px;
   border: none;
   color: $white;
   padding: 10px 16px;
@@ -38,7 +38,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     header {
       padding: 0 24px 0 24px;
     }
@@ -53,9 +53,17 @@ header {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
     header {
-        height: 80px;
+        height: 100px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__branding {
+      align-self: flex-start;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
 
     .header__logo {
@@ -66,4 +74,18 @@ header {
     .header__headline {
       font-size: 18px;
     }
+
+    .header__button {
+      width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+  header {
+    padding: 0 18px 0 18px;
+  }
+
+  .header__logo {
+    margin-right: 18px;
+  }
 }
