@@ -1,5 +1,3 @@
-console.log("It's loooooaded")
-
 const slideHolder = document.querySelector(".slider__holder");
 const numberOfSlides = document.querySelectorAll(".slider_element").length
 
