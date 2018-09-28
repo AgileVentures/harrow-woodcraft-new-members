@@ -1,0 +1,14 @@
+.footer_image {
+  width: 100%;
+  height: 473px;
+  background-image: url("../img/harrow_woodcraft_7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer_image {
+    max-height: 100vw;
+  }
+}

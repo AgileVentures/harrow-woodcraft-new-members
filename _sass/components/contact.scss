@@ -1,0 +1,38 @@
+.contact {
+  padding: 20px $page-padding-right 32px $page-padding-left;
+  background-color: $dark-green;
+  color: $white;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .contact__heading {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact {
+    padding: 18px;
+  }
+
+  .contact__heading {
+    font-size: 18px;
+    line-height: 1.45;
+  }
+
+  .contact__about {
+    font-size: $paragraph-mobile;
+  }
+
+  .contact__link {
+    text-decoration: underline;
+  }
+}
