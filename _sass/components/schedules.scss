@@ -1,0 +1,63 @@
+.schedules {
+  background-color: $dark-green;
+  color: $white;
+  padding-left: $page-padding-left;
+  padding-right: $page-padding-right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.schedules__heading {
+  margin-bottom: 10px;
+  font-family: $secondary-font;
+}
+
+.schedules_item {
+  list-style: none;
+  font-size: 32px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: $page-padding-left;
+  padding-right: $page-padding-right;
+  width: 100%;
+  color: $white;
+  background-color: $dark-green;
+
+  &:nth-of-type(odd) {
+    background-color: $medium-green;
+  }
+
+  span {
+    color: $light-green;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .schedules, .schedules_item {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .schedules__heading, .schedules_item {
+    font-size: 28px;
+    line-height: 1.15;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .schedules, .schedules_item {
+    padding: 18px;
+  }
+
+  .schedules__heading, .schedules_item {
+    font-size: 18px;
+    line-height: 1.45;
+  }
+
+  .schedules__description {
+    font-size: $paragraph-mobile;
+  }
+}
