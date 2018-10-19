@@ -1,25 +1,13 @@
 <section class="program_usp_container">
-  <div class="program_usp__item">
-    <img class="program_usp__item_img" src="{{ site.data.usp.usp_1_image }}" alt="{{ site.data.usp.usp_1_image_alt }}">
+ {% for usp in site.data.usp %}
+  <div class="program_usp__item">   
+    <img class="program_usp__item_img" src="{{ usp.image }}" alt="{{ usp.image_alt }}">
     <div class="program_usp__description">
-      <h5 class="program_usp__item__heading">{{ site.data.usp.usp_1_title }}</h5>
-      <p class="program_usp_item__description">{{ site.data.usp.usp_1_description }}</p>
+      <h5 class="program_usp__item__heading">{{ usp.title }}</h5>
+      <p class="program_usp_item__description">{{ usp.desc }}</p>
     </div>
   </div>
-  <div class="program_usp__item">
-    <img class="program_usp__item_img" src="{{ site.data.usp.usp_2_image }}" alt="{{ site.data.usp.usp_2_image_alt }}">
-    <div class="program_usp__description">
-      <h5 class="program_usp__item__heading">{{ site.data.usp.usp_2_title }}</h5>
-      <p class="program_usp_item__description">{{ site.data.usp.usp_2_description }}</p>
-    </div>
-  </div>
-  <div class="program_usp__item">
-    <img class="program_usp__item_img" src="{{ site.data.usp.usp_3_image }}" alt="{{ site.data.usp.usp_3_image_alt }}">
-    <div class="program_usp__description">
-      <h5 class="program_usp__item__heading">{{ site.data.usp.usp_3_title }}</h5>
-      <p class="program_usp_item__description">{{ site.data.usp.usp_3_description }}</p>
-    </div>
-  </div>
+ {% endfor %}
 </section>
 <div class="program_usp_mood">
   <div class="program_usp__item_img--small"></div>
