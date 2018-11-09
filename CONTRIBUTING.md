@@ -1,3 +1,6 @@
-Pull Requests should reference the issue they are addressing via fixes `#<issue number>`
+WORK IN PROGRESS
 
-Before development please ensure you are synced to upstream/master
+Some notes on contributing:
+
+* Pull Requests should reference the issue they are addressing via fixes `#<issue number>`
+* Before development please ensure you are synced to upstream/master
