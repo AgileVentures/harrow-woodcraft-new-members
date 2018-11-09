@@ -1,6 +1,16 @@
-# HARROW WOODCRAFT FOLK
+# HARROW WOODCRAFT FOLK NEW MEMBERS SITE
 
-A movement for children and young people, open to everyone from birth to adult. We offer a place where children will grow in confidence, learn about the world and start to understand how to value our planet and each other.
+This project is a small website for a youth activity group in in NorthWest London, who are a branch of a UK organisation for youth activity and friendship.
+
+This is the national organisation: https://woodcraft.org.uk/
+
+This is the local group: http://www.harrowwoodcraftfolk.btck.co.uk/
+
+This is the new website we built for them:
+
+## Live Site
+
+https://harrow-woodcraft-new-members.org.uk/
 
 ## Getting Started
 
