@@ -15,7 +15,6 @@ header {
 
 .header__logo {
   width: 80px;
-  height: 80px;
   margin-right: 20px;
 }
 
@@ -37,54 +36,51 @@ header {
     cursor: pointer;
   }
 }
-
 @media only screen and (max-width: 800px) {
-    header {
-      padding: 0 24px 0 24px;
-      height: 100px;
-    }
+  header {
+    padding: 0 24px;
+    height: 100px;
+  }
 
-    .header__logo {
-        width: 60px;
-        height: 60px;
-    }
+  .header__logo {
+    width: 60px;
+    height: 60px;
+  }
 
-    .header__headline {
-      font-size: 28px;
-      margin-top: 6px; // Small CSS cosmetix
-    }
+  .header__headline {
+    font-size: 28px;
+    margin-top: 6px; // Small CSS cosmetix
+  }
 }
-
 @media only screen and (max-width: 650px) {
-    header {
-        flex-direction: column;
-        justify-content: center;
-    }
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .header__branding {
-      align-self: flex-start;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
+  .header__branding {
+    align-self: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
-    .header__logo {
-        width: 40px;
-        height: 40px;
-    }
+  .header__logo {
+    width: 40px;
+    height: 40px;
+  }
 
-    .header__headline {
-      font-size: 18px;
-    }
+  .header__headline {
+    font-size: 18px;
+  }
 
-    .header__button {
-      width: 100vw;
-    }
+  .header__button {
+    width: 100vw;
+  }
 }
-
 @media only screen and (max-width: 400px) {
   header {
     background-color: $white;
-    padding: 0 18px 0 18px;
+    padding: 0 18px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
